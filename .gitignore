@@ -1,0 +1,27 @@
+# Binaries and folders
+bin/
+obj/
+
+# Go environment artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Architecture outputs
+gin-album-api
+
+# Local Environment Credentials (CRITICAL)
+.env
+
+# IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
