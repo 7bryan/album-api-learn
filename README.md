@@ -1,6 +1,6 @@
 # Go Gin RESTful Album API (MySQL Edition)
 
-A professional, layered architecture RESTful API built using **Go (Golang)**, the **Gin Web Framework**, and **GORM** connected to a **MySQL database**.
+A simple, layered architecture RESTful API built using **Go (Golang)**, the **Gin Web Framework**, and **GORM** connected to a **MySQL database**.
 
 ## Project Architecture
 
