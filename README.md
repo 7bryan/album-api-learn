@@ -68,6 +68,8 @@ gin-album-api/
 
 ## Quick Test Hooks
 
+## Using cURL
+
 ### Fetch Albums (`GET`)
 
 ```bash
@@ -81,4 +83,29 @@ curl http://localhost:8080/albums \
     --header "Content-Type: application/json" \
     --request "POST" \
     --data '{"title": "Kind of Blue","artist": "Miles Davis","price": 24.50}'
+```
+
+## Using Postman
+
+### Fetch Albums (`GET`)
+
+1. Change the HTTP method to GET.
+2. Enter the URL: http://localhost:8080/albums.
+3. Click Send.
+
+### Insert Albums (`POST`)
+
+1. Change the HTTP method to POST.
+2. Enter the URL: http://localhost:8080/albums.
+3. Navigate to the Body tab below the URL bar.
+4. Select the raw radio button.
+5. Change the format dropdown to JSON.
+6. Paste the following JSON data:
+
+```
+{
+  "title": "Kind of Blue",
+  "artist": "Miles Davis",
+  "price": 24.50
+}
 ```
